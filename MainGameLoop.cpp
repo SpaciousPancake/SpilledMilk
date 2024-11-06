@@ -47,7 +47,7 @@ int main()
     bool exit_game = false;
     //        ---Implement saving pet data from file later---
     int coins = 20; // Default Money
-    int hunger = 100, thirst = 100, happyness = 100; // Default Pet Values
+    int hunger = 100, thirst = 100, happiness = 100; // Default Pet Values
 
     while (true) // Main Game Loop
     {
@@ -55,7 +55,7 @@ int main()
         cout << "------------------------------------------" << endl;
         cout << "1) Shop Menu" << endl;
         cout << "2) Pet Menu" << endl;
-        cout << "3) MiniGame Menu" << endl;
+        cout << "3) Minigame Menu" << endl;
         cout << "4) Exit Game" << endl;
 
         while (true) // Input Validation
